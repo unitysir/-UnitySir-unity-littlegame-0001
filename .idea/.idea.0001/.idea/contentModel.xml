@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\UnitySir\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\UnitySir\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_0001.315906977.00" t="ExcludeRecursive" />
+    <e p="D:\zj_Programs\U3DFile\1\20\000Game\0001" t="IncludeRecursive">
+      <e p="0001.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="DSFramework" t="Include">
+          <e p="DSBaseUtilityTools" t="Include">
+            <e p="AStar" t="Include">
+              <e p="AStarMgr.cs" t="Include" />
+              <e p="AStarNode.cs" t="Include" />
+            </e>
+            <e p="CameraBox" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CameraCtrl.cs" t="Include" />
+              </e>
+            </e>
+            <e p="CustomGUI" t="Include">
+              <e p="Base" t="Include">
+                <e p="CustomGUIControl.cs" t="Include" />
+                <e p="CustomGUIPos.cs" t="Include" />
+                <e p="CustomGUIRoot.cs" t="Include" />
+              </e>
+              <e p="Control" t="Include">
+                <e p="CustomGUIButton.cs" t="Include" />
+                <e p="CustomGUIInput.cs" t="Include" />
+                <e p="CustomGUILabel.cs" t="Include" />
+                <e p="CustomGUISlider.cs" t="Include" />
+                <e p="CustomGUITexture.cs" t="Include" />
+                <e p="CustomGUIToggle.cs" t="Include" />
+                <e p="CustomGUIToggleGroup.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DSLog" t="Include">
+              <e p="DSLog.cs" t="Include" />
+              <e p="Example" t="Include">
+                <e p="LogExample.cs" t="Include" />
+              </e>
+            </e>
+            <e p="FK" t="Include">
+              <e p="DSMainRobot.cs" t="Include" />
+              <e p="DSRobotJoint.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="DSInput.cs" t="Include" />
+              <e p="InputUtil.cs" t="Include" />
+            </e>
+            <e p="LoadAB" t="Include">
+              <e p="DSABMgr.cs" t="Include" />
+            </e>
+            <e p="PlayerPrefsDataMgr" t="Include">
+              <e p="PlayerPrefsDataMgr.cs" t="Include" />
+            </e>
+            <e p="Ray" t="Include">
+              <e p="DSLine.cs" t="Include" />
+              <e p="DSRay.cs" t="Include" />
+            </e>
+            <e p="Single" t="Include">
+              <e p="DSingle.cs" t="Include" />
+              <e p="DSingleMono.cs" t="Include" />
+            </e>
+            <e p="Timer" t="Include">
+              <e p="Example" t="Include">
+                <e p="TestTimerBehaviour.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Util" t="Include">
+              <e p="DSDateTime.cs" t="Include" />
+              <e p="DStaticFunc" t="Include">
+                <e p="DStaticFunc.cs" t="Include" />
+              </e>
+              <e p="FontColor" t="Include">
+                <e p="DSColor.cs" t="Include" />
+              </e>
+              <e p="MenuItem" t="Include">
+                <e p="DSEditorUtil.cs" t="Include" />
+              </e>
+              <e p="ScriptTool" t="Include">
+                <e p="ScriptTool.cs" t="Include" />
+              </e>
+              <e p="UtilityTool" t="Include">
+                <e p="DScriptsInfoRecoder.cs" t="Include" />
+                <e p="DSUtilityTool.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="DSCore" t="Include">
+            <e p="Base" t="Include">
+              <e p="DSComponent.cs" t="Include" />
+              <e p="DSComponentBase.cs" t="Include" />
+              <e p="DSMonoController.cs" t="Include" />
+              <e p="DSWindowBase.cs" t="Include" />
+              <e p="MonoBehaviourExtensions.cs" t="Include" />
+            </e>
+            <e p="Components" t="Include">
+              <e p="AudioComponent.cs" t="Include" />
+              <e p="DBComponent.cs" t="Include" />
+              <e p="DebugsComponent.cs" t="Include" />
+              <e p="MonoComponent.cs" t="Include" />
+              <e p="MsgMechainComponent.cs" t="Include" />
+              <e p="PoolComponent.cs" t="Include" />
+              <e p="ResourceComponent.cs" t="Include" />
+              <e p="SceneComponent.cs" t="Include" />
+              <e p="UIComponent.cs" t="Include" />
+            </e>
+            <e p="DSEntity.cs" t="Include" />
+            <e p="UtilExpand" t="Include">
+              <e p="DSTimer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DSFramework.asmdef" t="Include" />
+        </e>
+        <e p="DSimpleMove" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="SimpleMove.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DSFramework.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

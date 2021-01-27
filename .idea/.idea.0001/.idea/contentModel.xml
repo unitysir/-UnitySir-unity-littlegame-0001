@@ -114,11 +114,6 @@
           </e>
           <e p="DSFramework.asmdef" t="Include" />
         </e>
-        <e p="DSimpleMove" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="SimpleMove.cs" t="Include" />
-          </e>
-        </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
@@ -127,6 +122,16 @@
               <e p="ExtensionLoader.cs" t="Include" />
               <e p="UnityAPIWrapper.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="SimpleGame" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Move" t="Include">
+              <e p="SimpleCamera.cs" t="Include" />
+              <e p="SimpleMove.cs" t="Include" />
+              <e p="SimpleMoveAni.cs" t="Include" />
+            </e>
+            <e p="SimpleMsgMechanism.cs" t="Include" />
           </e>
         </e>
       </e>

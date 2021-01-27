@@ -20,10 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59b792d1-bbbc-43ad-87c1-dd0c4b786451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleMsgMechanism.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleMsgMechanism.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSFramework/DSRes/Prefabs/UI/DSEntity.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DSFramework/DSRes/Prefabs/UI/DSEntity.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Controller/SimpleMoveController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Controller/SimpleMoveController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Controller/SimpleMoveController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Controller/SimpleMoveController.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/running.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/running.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/running.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/running.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield death.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield death.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield death.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield death.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield idle (4).fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield idle (4).fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield idle (4).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield idle (4).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield run 180 turn (2).fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield run 180 turn (2).fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield run 180 turn (2).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield run 180 turn (2).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield run.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield run.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield run.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield walk (2).fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield walk (2).fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield walk (2).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield walk (2).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield walk 180 turn.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield walk 180 turn.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield walk 180 turn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield walk 180 turn.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield walk.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield walk.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/sword and shield walk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/sword and shield walk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/walking.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/walking.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/walking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/walking.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/ybot@Jump.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/ybot@Jump.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/ybot@Jump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/ybot@Jump.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/ybot@Sprinting Forward Roll.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/ybot@Sprinting Forward Roll.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Model/ybot@Sprinting Forward Roll.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/ybot@Sprinting Forward Roll.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +71,21 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/82EC470C-9131-4935-8AD0-C83AD628910C/46/1af130a2/020001D7.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/02/7adec5cd/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/02/5b310a23/020000D0.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82EC470C-9131-4935-8AD0-C83AD628910C/b2/5013d0f3/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleMove/SimpleMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/ZTestScene/SimpleMoveTest.cs" />
         <option value="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleMsgMechanism.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleMsgMechanism.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMoveAni.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611541101445</updated>
-      <workItem from="1611541128722" duration="15408000" />
+      <workItem from="1611541128722" duration="32618000" />
     </task>
     <servers />
   </component>

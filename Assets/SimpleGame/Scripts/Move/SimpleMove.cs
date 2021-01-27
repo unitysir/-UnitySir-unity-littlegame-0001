@@ -23,7 +23,7 @@ public class SimpleMove : MonoBehaviour
         _hMove = Input.GetAxis("Horizontal");
         _vMove = Input.GetAxis("Vertical");
         SetMoveDir();
-        SimpleMsgMechanism.Instance.SendMsg("playerani", Mathf.Sqrt(_hMove * _hMove + _vMove * _vMove));
+        SimpleMsgMechanism.SendMsg("playerani", Mathf.Sqrt(_hMove * _hMove + _vMove * _vMove));
     }
 
     private void FixedUpdate()

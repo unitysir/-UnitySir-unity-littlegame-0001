@@ -114,6 +114,9 @@
           </e>
           <e p="DSFramework.asmdef" t="Include" />
         </e>
+        <e p="Fantasy Forest Environment Free Sample" t="Include">
+          <e p="StandardNoCulling.shader" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">

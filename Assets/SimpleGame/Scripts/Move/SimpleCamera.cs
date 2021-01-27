@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class SimpleCamera : MonoBehaviour
 {
-    private float camY = -1.8f;
-    private float camZ = -0.7f;
+    [SerializeField] private float camY = -2.5f;
+    [SerializeField] private float camZ = -6f;
 
     private Transform _player; //主角位置
     private float _smoothing = 3; //平滑度

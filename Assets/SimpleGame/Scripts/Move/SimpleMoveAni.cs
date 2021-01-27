@@ -19,7 +19,7 @@ public class SimpleMoveAni : MonoBehaviour
     /// </summary>
     void SetMoveAni()
     {
-        SimpleMsgMechanism.Instance.ReceiveMsg("playerani", msg =>
+        SimpleMsgMechanism.ReceiveMsg("playerani", msg =>
         {
             float ani = (float) msg;
             _animator.SetFloat("ForwardMove", ani);

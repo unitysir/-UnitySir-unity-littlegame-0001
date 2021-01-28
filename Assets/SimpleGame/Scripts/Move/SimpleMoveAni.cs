@@ -19,10 +19,14 @@ public class SimpleMoveAni : MonoBehaviour
     /// </summary>
     void SetMoveAni()
     {
-        SimpleMsgMechanism.ReceiveMsg("PlayerMove", msg =>
+        SimpleMsgMechanism.ReceiveMsg("PlayerMove", objects =>
         {
-            float ani = (float) msg;
-            _animator.SetFloat("ForwardMove", ani);
+            float move = (float) objects[0];
+            bool isRun = (bool) objects[1];
+            _animator.SetFloat("ForwardMove",
+                move * (isRun
+                    ? (Mathf.Lerp(_animator.GetFloat("ForwardMove"), 2f, 0.1f))
+                    : Mathf.Lerp(_animator.GetFloat("ForwardMove"), 1f, 0.1f)));
         });
     }
 }

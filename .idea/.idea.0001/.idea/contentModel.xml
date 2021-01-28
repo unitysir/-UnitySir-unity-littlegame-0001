@@ -135,6 +135,9 @@
               <e p="SimpleMoveAni.cs" t="Include" />
             </e>
             <e p="SimpleMsgMechanism.cs" t="Include" />
+            <e p="SimpleTools" t="Include">
+              <e p="SimpleTools.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

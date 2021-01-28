@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SimpleMsgMechanism
 {
-    private static Dictionary<string, Action<object>> msgDic = new Dictionary<string, Action<object>>();
+    private static Dictionary<string, Action<object[]>> msgDic = new Dictionary<string, Action<object[]>>();
 
-    public static void ReceiveMsg(string msgName, Action<object> onMsg)
+    public static void ReceiveMsg(string msgName, Action<object[]> onMsg)
     {
         if (!msgDic.ContainsKey(msgName))
         {
@@ -14,7 +14,7 @@ public class SimpleMsgMechanism
         }
     }
 
-    public static void SendMsg(string msgName, object data)
+    public static void SendMsg(string msgName, params object[] data)
     {
         if (msgDic.ContainsKey(msgName))
         {

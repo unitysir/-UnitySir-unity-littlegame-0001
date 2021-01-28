@@ -7698,7 +7698,14 @@ MonoBehaviour:
   moveDir: {x: 0, y: 0}
   moveDirNormalized: {x: 0, y: 0}
   targetDir: 0
+  moveSpeed: 0
   walkSpeed: 2
+  runSpeed: 6
+  isRunning: 0
+  keyA: 304
+  keyB: 0
+  keyC: 0
+  keyD: 0
 --- !u!54 &8165556183163630549
 Rigidbody:
   m_ObjectHideFlags: 0

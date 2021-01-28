@@ -16,6 +16,9 @@ public class SimpleMove : MonoBehaviour
     private float _vMove = 0f;
     private float _hMove = 0f;
 
+    private float dirMag = 0f; //方向大小
+    private Vector2 toRound = Vector2.zero;//方形转圆形
+
     [Header("键盘输入控制")] [SerializeField] private KeyCode keyA = KeyCode.LeftShift;
     [SerializeField] private KeyCode keyB = KeyCode.None;
     [SerializeField] private KeyCode keyC = KeyCode.None;
@@ -33,7 +36,9 @@ public class SimpleMove : MonoBehaviour
         _vMove = Input.GetAxis("Vertical");
         SetMoveDir();
         SetRun();
-        SimpleMsgMechanism.SendMsg("PlayerMove", Mathf.Sqrt(_hMove * _hMove + _vMove * _vMove) * (isRunning ? 2 : 1));
+        toRound = SimpleTools.Vec2Rect2Round(new Vector2(_hMove, _vMove));
+        dirMag = Mathf.Sqrt(toRound.x * toRound.x + toRound.y * toRound.y);
+        SimpleMsgMechanism.SendMsg("PlayerMove", dirMag, isRunning);
     }
 
     private void FixedUpdate()
@@ -47,7 +52,7 @@ public class SimpleMove : MonoBehaviour
     void SetMoveDir()
     {
         moveDir = new Vector2(_hMove, _vMove); //获取到输入的值
-        moveDirNormalized = moveDir.normalized; //将值归一化
+        moveDirNormalized = moveDir.normalized; //将值归一化(获取方向)
         targetDir = Mathf.Atan2(moveDirNormalized.x, moveDirNormalized.y) * Mathf.Rad2Deg; //计算朝向目标的角度
         if (moveDirNormalized != Vector2.zero) //当输入的值不为0时，转向目标角度
         {
@@ -63,7 +68,8 @@ public class SimpleMove : MonoBehaviour
     void PlayerMove()
     {
         moveSpeed = isRunning ? runSpeed : walkSpeed;
-        _rigidbody.velocity = new Vector3(moveSpeed * _hMove, 0, moveSpeed * _vMove);
+        Vector3 output = SimpleTools.Vec3Rect2Round(new Vector3(_hMove, 0, _vMove));
+        _rigidbody.velocity = new Vector3(moveSpeed * output.x, _rigidbody.velocity.y, moveSpeed * output.z);
     }
 
     /// <summary>

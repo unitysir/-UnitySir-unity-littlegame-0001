@@ -7,11 +7,20 @@ public class SimpleMove : MonoBehaviour
     [Header("角色方向控制变量")] [SerializeField] private Vector2 moveDir = Vector2.zero; //移动方向
     [SerializeField] private Vector2 moveDirNormalized = Vector2.zero;
     [SerializeField] private float targetDir = 0f; //角色目标方向
+    [SerializeField] private float moveSpeed = 0f;
     [SerializeField] private float walkSpeed = 2f; //行走速度
+    [SerializeField] private float runSpeed = 6f;
+    [SerializeField] private bool isRunning = false;
     private float _smoothTime = 0.1f;
     private float _currentVelocity = 0f;
     private float _vMove = 0f;
     private float _hMove = 0f;
+
+    [Header("键盘输入控制")] [SerializeField] private KeyCode keyA = KeyCode.LeftShift;
+    [SerializeField] private KeyCode keyB = KeyCode.None;
+    [SerializeField] private KeyCode keyC = KeyCode.None;
+    [SerializeField] private KeyCode keyD = KeyCode.None;
+
 
     private void Awake()
     {
@@ -23,7 +32,8 @@ public class SimpleMove : MonoBehaviour
         _hMove = Input.GetAxis("Horizontal");
         _vMove = Input.GetAxis("Vertical");
         SetMoveDir();
-        SimpleMsgMechanism.SendMsg("playerani", Mathf.Sqrt(_hMove * _hMove + _vMove * _vMove));
+        SetRun();
+        SimpleMsgMechanism.SendMsg("PlayerMove", Mathf.Sqrt(_hMove * _hMove + _vMove * _vMove) * (isRunning ? 2 : 1));
     }
 
     private void FixedUpdate()
@@ -52,6 +62,15 @@ public class SimpleMove : MonoBehaviour
     /// </summary>
     void PlayerMove()
     {
-        _rigidbody.velocity = new Vector3(walkSpeed * _hMove, 0, walkSpeed * _vMove);
+        moveSpeed = isRunning ? runSpeed : walkSpeed;
+        _rigidbody.velocity = new Vector3(moveSpeed * _hMove, 0, moveSpeed * _vMove);
+    }
+
+    /// <summary>
+    /// 设置角色奔跑
+    /// </summary>
+    void SetRun()
+    {
+        isRunning = Input.GetKey(keyA);
     }
 }

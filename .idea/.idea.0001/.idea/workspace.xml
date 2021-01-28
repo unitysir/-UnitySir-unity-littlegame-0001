@@ -20,207 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59b792d1-bbbc-43ad-87c1-dd0c4b786451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armLorygin.part1-mat021_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armLorygin.part1-mat021_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armRorygin.part1-mat018_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armRorygin.part1-mat018_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armleftRig.part1-mat002_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armleftRig.part1-mat002_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armleftRig.part1-mat002_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armleftRig.part1-mat002_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armrightRig.part1-mat001_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armrightRig.part1-mat001_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armrightRig.part1-mat001_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+armrightRig.part1-mat001_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+helmetOpen.part1-mat025_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+helmetOpen.part1-mat025_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+helmetOpen.part1-mat025_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+helmetOpen.part1-mat025_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+pauldron.part1-mat007_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+pauldron.part1-mat007_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+pauldron.part1-mat007_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_+pauldron.part1-mat007_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat003_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat003_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat003_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat003_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat004_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat004_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat004_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat004_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat006_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat006_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat006_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat006_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat008_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat008_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat008_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat008_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat009_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat009_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat009_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat009_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat011_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat011_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat011_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat011_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat012_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat012_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat012_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat012_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat014_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat014_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat014_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat014_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat015_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat015_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat015_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat015_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat019_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat019_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat019_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat019_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat020_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat020_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat020_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part1-mat020_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part2-mat001_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part2-mat001_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part2-mat001_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/24_part2-mat001_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetClose.part1-mat017_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetClose.part1-mat017_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetClose.part1-mat017_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetClose.part1-mat017_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetOpen.part1-mat026_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetOpen.part1-mat026_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetOpen.part1-mat026_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_+helmetOpen.part1-mat026_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat005_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat005_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat005_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat005_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat010_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat010_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat010_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat010_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat016_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat016_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat016_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat016_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat022_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat022_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat022_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat022_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat023_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat023_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat023_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat023_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat024_1_0_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat024_1_0_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat024_1_0_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Materials/25_part1-mat024_1_0_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_n 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_n 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_s 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_s 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9500_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/AM_A_9501.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_n 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_n 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_s 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_s 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_1_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_n 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_n 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_s 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_s 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_2_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/BD_A_9500_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_n 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_n 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_s 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_s 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9500_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9501.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_n 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_n 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_s 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_s 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9550_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9551.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/HD_A_9551.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_n 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_n 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_s 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_s 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9500_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/LG_M_9501.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/lightmap_white 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/lightmap_white 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/lightmap_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/Textures/lightmap_white.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/eliteKnight.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Astora's Elite Knight/eliteKnight.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LoginScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LoginScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Config/Postprocess/postprocessing.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Config/Postprocess/postprocessing.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Controller/SimpleMoveController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Controller/SimpleMoveController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scenes/MainGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMoveAni.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMoveAni.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleMsgMechanism.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleMsgMechanism.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,9 +53,9 @@
         <option value="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/DSimpleMove/Scripts/SimpleMsgMechanism.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleMsgMechanism.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMoveAni.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleCamera.cs" />
       </list>
     </option>
   </component>
@@ -282,10 +88,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="33888">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="33888" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -300,7 +106,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611541101445</updated>
-      <workItem from="1611541128722" duration="38853000" />
+      <workItem from="1611541128722" duration="39450000" />
+      <workItem from="1611801587091" duration="3237000" />
     </task>
     <servers />
   </component>
@@ -319,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

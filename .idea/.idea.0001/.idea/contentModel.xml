@@ -129,15 +129,20 @@
         </e>
         <e p="SimpleGame" t="Include">
           <e p="Scripts" t="Include">
-            <e p="Move" t="Include">
+            <e p="PlayerAction" t="Include">
+              <e p="Player" t="Include">
+                <e p="SimplePlayerAni.cs" t="Include" />
+                <e p="SimplePlayerCtrl.cs" t="Include" />
+              </e>
               <e p="SimpleCamera.cs" t="Include" />
-              <e p="SimpleMove.cs" t="Include" />
-              <e p="SimpleMoveAni.cs" t="Include" />
             </e>
-            <e p="SimpleMsgMechanism.cs" t="Include" />
             <e p="SimpleTools" t="Include">
+              <e p="SimpleMsgMechanism.cs" t="Include" />
               <e p="SimpleTools.cs" t="Include" />
             </e>
+          </e>
+          <e p="Shader" t="Include">
+            <e p="PlayerOcclusion.shader" t="Include" />
           </e>
         </e>
       </e>

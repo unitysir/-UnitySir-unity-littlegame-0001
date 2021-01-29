@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SimpleMoveAni : MonoBehaviour
+public class SimplePlayerAni : MonoBehaviour
 {
     private Animator _animator;
 

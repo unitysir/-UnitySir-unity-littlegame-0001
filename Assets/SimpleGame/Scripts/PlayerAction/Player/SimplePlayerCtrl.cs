@@ -11,14 +11,14 @@ public class SimplePlayerCtrl : MonoBehaviour
     [SerializeField] private float walkSpeed = 2f; //行走速度
     [SerializeField] private float runSpeed = 6f;
     [SerializeField] private bool isRunning = false;
-    private float _smoothTime = 0.1f;//过渡时间
+    private float _smoothTime = 0.1f; //过渡时间
     private float _currentVelocity = 0f;
-    private float _vMove = 0f;//垂直输入
-    private float _hMove = 0f;//水平输入
+    private float _vMove = 0f; //垂直输入
+    private float _hMove = 0f; //水平输入
 
     private float dirMag = 0f; //方向大小
-    private Vector2 toRound = Vector2.zero;//方形转圆形
-    
+    private Vector2 toRound = Vector2.zero; //方形转圆形
+
     [Header("键盘输入控制")] [SerializeField] private KeyCode keyA = KeyCode.LeftShift;
     [SerializeField] private KeyCode keyB = KeyCode.None;
     [SerializeField] private KeyCode keyC = KeyCode.None;
@@ -27,7 +27,7 @@ public class SimplePlayerCtrl : MonoBehaviour
 
     private void Awake()
     {
-        _rigidbody = GameObject.Find("MainPlayer").GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     private void Update()
@@ -70,6 +70,8 @@ public class SimplePlayerCtrl : MonoBehaviour
         moveSpeed = isRunning ? runSpeed : walkSpeed;
         Vector3 output = SimpleTools.Vec3Rect2Round(new Vector3(_hMove, 0, _vMove));
         _rigidbody.velocity = new Vector3(moveSpeed * output.x, _rigidbody.velocity.y, moveSpeed * output.z);
+        //角色移动时才获取坐标
+        SimpleMsgMechanism.SendMsg("PlayerCurrentPos", transform.position);
     }
 
     /// <summary>

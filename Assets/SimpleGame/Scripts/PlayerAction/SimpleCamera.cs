@@ -5,10 +5,10 @@ public class SimpleCamera : MonoBehaviour
     [SerializeField] private float camY = -2.5f;
     [SerializeField] private float camZ = -6f;
 
-    private Transform _player; 
-    private float _smoothing = 3; 
-    private Vector3 _offset; 
-    
+    private Transform _player;
+    private float _smoothing = 3;
+    private Vector3 _offset;
+
     void Start()
     {
         //获取主角的位置

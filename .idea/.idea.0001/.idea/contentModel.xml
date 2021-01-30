@@ -129,6 +129,13 @@
         </e>
         <e p="SimpleGame" t="Include">
           <e p="Scripts" t="Include">
+            <e p="MonsterAction" t="Include">
+              <e p="Monster" t="Include">
+                <e p="MonsterAni.cs" t="Include" />
+                <e p="MonsterCheckPlayer.cs" t="Include" />
+                <e p="MonsterCtrl.cs" t="Include" />
+              </e>
+            </e>
             <e p="PlayerAction" t="Include">
               <e p="Player" t="Include">
                 <e p="SimplePlayerAni.cs" t="Include" />

@@ -1,20 +1,27 @@
+using System;
 using UnityEngine;
 
 public class MonsterAni : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
 
-    private void Awake()
-    {
-        _animator = GameObject.Find("Monster1/Monster1").GetComponent<Animator>();
-    }
+    [SerializeField] private MonsterCtrl _monsterCtrl;
+
+    [Header("是否移动")] [SerializeField] private bool isMove;
+    [Header("是否攻击")] [SerializeField] private bool isAttack;
 
     private void Start()
     {
-        SimpleMsgMechanism.ReceiveMsg("MonsterIsMove", objects =>
-        {
-            bool isMove = (bool) objects[0];
-            _animator.SetInteger("move", isMove ? 1 : 0);
-        });
+        _animator = transform.GetChild(0).GetComponent<Animator>();
+        _monsterCtrl = GetComponent<MonsterCtrl>();
+    }
+
+    private void Update()
+    {
+        isMove = _monsterCtrl.isMove;
+        _animator.SetInteger("move", isMove ? 1 : 0);
+
+        isAttack = _monsterCtrl.isAttack;
+        if (isAttack) _animator.SetTrigger("attack");
     }
 }

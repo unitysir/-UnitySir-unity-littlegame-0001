@@ -117,6 +117,7 @@
         <e p="Fantasy Forest Environment Free Sample" t="Include">
           <e p="StandardNoCulling.shader" t="Include" />
         </e>
+        <e p="InStandResetTrigger.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
@@ -132,7 +133,6 @@
             <e p="MonsterAction" t="Include">
               <e p="Monster" t="Include">
                 <e p="MonsterAni.cs" t="Include" />
-                <e p="MonsterCheckPlayer.cs" t="Include" />
                 <e p="MonsterCtrl.cs" t="Include" />
               </e>
             </e>
@@ -144,6 +144,7 @@
               <e p="SimpleCamera.cs" t="Include" />
             </e>
             <e p="SimpleTools" t="Include">
+              <e p="MonsterGenerate.cs" t="Include" />
               <e p="SimpleMsgMechanism.cs" t="Include" />
               <e p="SimpleTools.cs" t="Include" />
             </e>

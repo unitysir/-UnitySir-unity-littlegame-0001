@@ -36,7 +36,7 @@ public class SimplePlayerCtrl : MonoBehaviour
         _vMove = Input.GetAxis("Vertical");
         SetMoveDir();
         SetRun();
-        toRound = SimpleTools.Vec2Rect2Round(new Vector2(_hMove, _vMove));
+        toRound = SimpleTools.V2Rect2Round(new Vector2(_hMove, _vMove));
         dirMag = Mathf.Sqrt(toRound.x * toRound.x + toRound.y * toRound.y);
         SimpleMsgMechanism.SendMsg("PlayerMove", dirMag, isRunning);
     }
@@ -68,10 +68,8 @@ public class SimplePlayerCtrl : MonoBehaviour
     void PlayerMove()
     {
         moveSpeed = isRunning ? runSpeed : walkSpeed;
-        Vector3 output = SimpleTools.Vec3Rect2Round(new Vector3(_hMove, 0, _vMove));
+        Vector3 output = SimpleTools.V3Rect2Round(new Vector3(_hMove, 0, _vMove));
         _rigidbody.velocity = new Vector3(moveSpeed * output.x, _rigidbody.velocity.y, moveSpeed * output.z);
-        //角色移动时才获取坐标
-        SimpleMsgMechanism.SendMsg("PlayerCurrentPos", transform.position);
     }
 
     /// <summary>

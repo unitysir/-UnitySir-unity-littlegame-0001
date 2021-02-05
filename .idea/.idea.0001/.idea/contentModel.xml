@@ -133,13 +133,17 @@
             <e p="MonsterAction" t="Include">
               <e p="Monster" t="Include">
                 <e p="MonsterAni.cs" t="Include" />
+                <e p="MonsterCalcDamage.cs" t="Include" />
                 <e p="MonsterCtrl.cs" t="Include" />
+                <e p="MonsterProperty.cs" t="Include" />
               </e>
             </e>
             <e p="PlayerAction" t="Include">
               <e p="Player" t="Include">
                 <e p="SimplePlayerAni.cs" t="Include" />
+                <e p="SimplePlayerCalcDamage.cs" t="Include" />
                 <e p="SimplePlayerCtrl.cs" t="Include" />
+                <e p="SimplePlayerProperty.cs" t="Include" />
               </e>
               <e p="SimpleCamera.cs" t="Include" />
             </e>

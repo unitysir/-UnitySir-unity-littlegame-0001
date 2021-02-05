@@ -1,17 +1,21 @@
+using UnityEditor;
 using UnityEngine;
 
 public class SimplePlayerAni : MonoBehaviour
 {
     private Animator _animator;
+    private SimplePlayerCtrl _playerCtrl;
 
     void Awake()
     {
         _animator = GameObject.Find("MainPlayer/Player").GetComponent<Animator>();
+        _playerCtrl = GetComponent<SimplePlayerCtrl>();
     }
 
     void Update()
     {
         SetMoveAni();
+        SetNormalAttack();
     }
 
     /// <summary>
@@ -19,14 +23,20 @@ public class SimplePlayerAni : MonoBehaviour
     /// </summary>
     void SetMoveAni()
     {
-        SimpleMsgMechanism.ReceiveMsg("PlayerMove", objects =>
+        float dirMag = _playerCtrl.dirMag;
+        bool isRun = _playerCtrl.isRunning;
+        _animator.SetFloat("ForwardMove",
+            dirMag * (isRun
+                ? (Mathf.Lerp(_animator.GetFloat("ForwardMove"), 2f, 0.1f))
+                : Mathf.Lerp(_animator.GetFloat("ForwardMove"), 1f, 0.1f)));
+    }
+
+    void SetNormalAttack()
+    {
+        bool isNormalAttack = _playerCtrl.isNormalAttack;
+        if (isNormalAttack && !_playerCtrl.isRunning)
         {
-            float move = (float) objects[0];
-            bool isRun = (bool) objects[1];
-            _animator.SetFloat("ForwardMove",
-                move * (isRun
-                    ? (Mathf.Lerp(_animator.GetFloat("ForwardMove"), 2f, 0.1f))
-                    : Mathf.Lerp(_animator.GetFloat("ForwardMove"), 1f, 0.1f)));
-        });
+            _animator.SetTrigger("NormalAttack");
+        }
     }
 }

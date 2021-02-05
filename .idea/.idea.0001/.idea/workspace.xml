@@ -21,23 +21,24 @@
   <component name="ChangeListManager">
     <list default="true" id="59b792d1-bbbc-43ad-87c1-dd0c4b786451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.0001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.0001/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FantasyMonster/Controller/MonsterController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyMonster/Controller/MonsterController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models/MainPlayer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models/MainPlayer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models/Monster.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models/Monster.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models/Sword.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Prefabs/Models/Sword.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Controller/SimpleMoveController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Controller/SimpleMoveController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Model/xbot@Stabbing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/xbot@Stabbing.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Model/xbot@Stable Sword Outward Slash.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/xbot@Stable Sword Outward Slash.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Model/xbot@Standing Melee Kick.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Model/xbot@Standing Melee Kick.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Resources/Prefabs/Models/MainPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Resources/Prefabs/Models/MainPlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Resources/Prefabs/Models/Monster1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Resources/Prefabs/Models/Monster1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterAni.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterAni.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCheckPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCheckPlayer.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCtrl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerAni.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerAni.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerCtrl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleTools/SimpleTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleTools/SimpleTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/SimpleCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/SimpleCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +50,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/82EC470C-9131-4935-8AD0-C83AD628910C/46/1af130a2/020001D7.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterProperty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/02/7adec5cd/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerProperty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/02/5b310a23/020000D0.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82EC470C-9131-4935-8AD0-C83AD628910C/ad/80aacafd/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InStandResetTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCalcDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/82EC470C-9131-4935-8AD0-C83AD628910C/4e/18c61bd0/0200027C.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterAni.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82EC470C-9131-4935-8AD0-C83AD628910C/b2/5013d0f3/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
@@ -72,18 +76,22 @@
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMove.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/Move/SimpleMoveCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimpleMoveCtrl.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerAni.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/SimpleCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCheckPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleTools/SimpleMsgMechanism.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleTools/MonsterGenerate.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterAni.cs" />
         <option value="$PROJECT_DIR$/Assets/InAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/InStand.cs" />
         <option value="$PROJECT_DIR$/Assets/InStandResetTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/SimpleTools/SimpleTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerAni.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerProperty.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterProperty.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCtrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerCtrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/Player/SimplePlayerCalcDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/MonsterAction/Monster/MonsterCalcDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGame/Scripts/PlayerAction/SimpleCamera.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +145,7 @@
       <updated>1611541101445</updated>
       <workItem from="1611541128722" duration="39450000" />
       <workItem from="1611801587091" duration="57599000" />
+      <workItem from="1612434004992" duration="9152000" />
     </task>
     <servers />
   </component>
@@ -233,13 +242,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="184" key="SettingsEditor/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1611982908141" />
-    <state x="501" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611989122059">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-1519" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612454297191">
+      <screen x="-1920" y="0" width="1536" height="864" />
     </state>
+    <state x="-1519" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1536.864/0.0.1920.1080@-1920.0.1536.864" timestamp="1612454297191" />
+    <state x="401" y="123" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1612434277029" />
     <state x="501" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1611989122059" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1611924366934">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-1422" y="188" width="672" height="543" key="search.everywhere.popup" timestamp="1612451388182">
+      <screen x="-1920" y="0" width="1536" height="864" />
     </state>
+    <state x="-1422" y="188" width="672" height="543" key="search.everywhere.popup/-1920.0.1536.864/0.0.1920.1080@-1920.0.1536.864" timestamp="1612451388182" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1611924366934" />
   </component>
 </project>

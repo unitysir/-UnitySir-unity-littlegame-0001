@@ -10,24 +10,42 @@ public class SimplePlayerCtrl : MonoBehaviour
     [SerializeField] private float moveSpeed = 0f;
     [SerializeField] private float walkSpeed = 2f; //行走速度
     [SerializeField] private float runSpeed = 6f;
-    [SerializeField] private bool isRunning = false;
+    [Header("是否正在奔跑")][SerializeField] public bool isRunning = false;
+    [Header("是否正在进行普通攻击")][SerializeField] public bool isNormalAttack = false;
+    [Header("角色是否死亡")] [SerializeField] public bool isDeath;
+
     private float _smoothTime = 0.1f; //过渡时间
     private float _currentVelocity = 0f;
     private float _vMove = 0f; //垂直输入
     private float _hMove = 0f; //水平输入
 
-    private float dirMag = 0f; //方向大小
-    private Vector2 toRound = Vector2.zero; //方形转圆形
+    /// <summary>
+    /// 方向大小
+    /// </summary>
+    [HideInInspector] public float dirMag = 0f;
 
-    [Header("键盘输入控制")] [SerializeField] private KeyCode keyA = KeyCode.LeftShift;
-    [SerializeField] private KeyCode keyB = KeyCode.None;
+    /// <summary>
+    /// 方形转圆形
+    /// </summary>
+    private Vector2 toRound = Vector2.zero;
+
+    [Header("键盘输入控制")] [Header("奔跑")] [SerializeField]
+    private KeyCode keyA = KeyCode.LeftShift;
+
+    [Header("普通攻击")] [SerializeField] private KeyCode keyB = KeyCode.J;
     [SerializeField] private KeyCode keyC = KeyCode.None;
     [SerializeField] private KeyCode keyD = KeyCode.None;
+
+    [Header("角色攻击的武器")] [SerializeField] private GameObject weapon;
 
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        if (weapon != null)
+        {
+            weapon.AddComponent<SimplePlayerCalcDamage>();
+        }
     }
 
     private void Update()
@@ -39,6 +57,7 @@ public class SimplePlayerCtrl : MonoBehaviour
         toRound = SimpleTools.V2Rect2Round(new Vector2(_hMove, _vMove));
         dirMag = Mathf.Sqrt(toRound.x * toRound.x + toRound.y * toRound.y);
         SimpleMsgMechanism.SendMsg("PlayerMove", dirMag, isRunning);
+        SetNormalAttack();
     }
 
     private void FixedUpdate()
@@ -78,5 +97,13 @@ public class SimplePlayerCtrl : MonoBehaviour
     void SetRun()
     {
         isRunning = Input.GetKey(keyA);
+    }
+
+    /// <summary>
+    /// 普通攻击
+    /// </summary>
+    void SetNormalAttack()
+    {
+        isNormalAttack = Input.GetKeyUp(keyB);
     }
 }

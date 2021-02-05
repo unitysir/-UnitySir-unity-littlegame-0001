@@ -14,10 +14,13 @@ public class MonsterCtrl : MonoBehaviour
 
     [Header("怪物是否移动")] [SerializeField] public bool isMove;
     [Header("怪物是否开始攻击")] [SerializeField] public bool isAttack;
-    [Header("怪物是否死亡")] [SerializeField] private bool isDeath;
+    [Header("怪物是否死亡")] [SerializeField] public bool isDeath;
 
     [Header("主角对象")] [SerializeField] private GameObject playerObj;
     [Header("主角当前的位置")] [SerializeField] private Vector3 playerPos = Vector3.zero;
+
+    [Header("怪物攻击的武器")] [SerializeField] private GameObject weapon;
+
 
     //怪物控制必须要有以下几个条件 :
     //怪物需要实时计算与主角的距离：
@@ -33,6 +36,10 @@ public class MonsterCtrl : MonoBehaviour
     {
         monsterController = GetComponent<CharacterController>();
         monsterPos = transform.position;
+        if (weapon != null)
+        {
+            weapon.AddComponent<MonsterCalcDamage>();
+        }
     }
 
     private void Start()
@@ -75,19 +82,19 @@ public class MonsterCtrl : MonoBehaviour
                 //移动到目标点
                 monsterController.Move(offset * Time.deltaTime);
                 isMove = true; //移动
-                isAttack = false;//停止攻击
+                isAttack = false; //停止攻击
             }
             else
             {
                 //当检车到主角时，如果和主角的距离小于等于1.8，则开始攻击
-                isMove = false;//停止移动
-                isAttack = true;//攻击
+                isMove = false; //停止移动
+                isAttack = true; //攻击
             }
         }
         else
         {
             //如果主角退出检测区,怪物就回到出生点
-            isAttack = false;//停止攻击
+            isAttack = false; //停止攻击
             //怪物要实时看着出生点
             transform.LookAt(monsterBronPointPos);
             //获取出生点与怪物之间的距离

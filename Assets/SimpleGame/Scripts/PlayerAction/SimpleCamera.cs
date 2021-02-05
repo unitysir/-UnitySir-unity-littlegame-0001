@@ -19,11 +19,6 @@ public class SimpleCamera : MonoBehaviour
 
     void LateUpdate()
     {
-        //targetPos（相机要移动的目标位置）=主角的位置+偏移
-        //（使用TransformDirection方法使相机一直在主角背面）
-        Vector3 targetPos = _player.position + _player.TransformDirection(_offset + new Vector3(0, camY, camZ));
-        //利用差值运算移动相机到目标位置
-        transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * _smoothing);
-        transform.LookAt(_player);
+        transform.position = _player.position + _offset;
     }
 }
